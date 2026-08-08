@@ -286,36 +286,4 @@ footer{
     width:160px;
 }
 
-}.reasons {
-    padding: 45px 42px;
-}
-
-.reasons h2 {
-    font-size: 24px;
-}
-
-.reason-container {
-    grid-template-columns: 1fr;
-    gap: 16px;
-}
-
-.reason-card {
-    min-height: 235px;
-    padding: 28px;
-    border-radius: 20px;
-}
-
-.reason-card h3 {
-    font-size: 24px;
-}
-
-.reason-card p {
-    font-size: 16px;
-}
-
-.reason-card img {
-    width: 70px;
-    height: 70px;
-    right: 18px;
-    bottom: 12px;
-}
+}.
