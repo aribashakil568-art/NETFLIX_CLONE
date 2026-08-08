@@ -29,7 +29,7 @@ body{
 }
 
 .logo{
-    width: 200px;
+    width:150px;
 }
 
 .sign-btn{
@@ -45,7 +45,7 @@ body{
 
 .hero-content{
     text-align:center;
-    margin-top: 100px;
+    margin-top:170px;
     padding:0 20px;
 }
 
@@ -124,61 +124,13 @@ body{
 
 /* Cards */
 
-.reasons {
-    background: #000;
-    padding: 60px 6%;
+.reasons{
+    padding:60px 8%;
 }
 
-.reasons h2 {
-    color: white;
-    font-size: 32px;
-    margin-bottom: 25px;
-    font-weight: 700;
-}
-
-.reason-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-}
-
-.reason-card {
-    position: relative;
-    min-height: 280px;
-    padding: 30px 25px;
-    border-radius: 22px;
-    overflow: hidden;
-
-    background: linear-gradient(
-        135deg,
-        #171f46,
-        #26152b
-    );
-
-    color: white;
-}
-
-.reason-card h3 {
-    font-size: 24px;
-    line-height: 1.2;
-    margin-bottom: 18px;
-    font-weight: 700;
-}
-
-.reason-card p {
-    color: #c4c4c9;
-    font-size: 17px;
-    line-height: 1.45;
-    max-width: 95%;
-}
-
-.reason-card img {
-    position: absolute;
-    width: 75px;
-    height: 75px;
-    object-fit: contain;
-    right: 20px;
-    bottom: 15px;
+.reasons h2{
+    margin-bottom:25px;
+    font-size:32px;
 }
 
 .cards{
@@ -256,7 +208,7 @@ footer{
 
 /* Responsive */
 
-@media (max-width:768px){
+@media(max-width:768px){
 
 .hero-content{
     margin-top:100px;
@@ -286,4 +238,4 @@ footer{
     width:160px;
 }
 
-}.
+}
